@@ -1,0 +1,79 @@
+body{
+	background-image: url("../resources/background.jpg");
+	background-size:100%;
+}
+
+h1{
+	text-align:center;
+}
+.flexContainer{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	align-items:stretch;
+	flex-wrap:wrap;
+}
+
+.header{
+	align-self:flex-start;
+	flex-basis:100%;
+	background:rgba(244, 66, 66,0.6);
+}
+
+.footer{
+	background-color:green;
+	align-self:flex-end;
+	flex-basis:100%;
+	align-self:stretch;
+	flex-grow:3;
+}
+
+.nav{
+	background-color:blue;
+	flex-grow:2;
+	align-self: stretch;
+	flex-basis:300px;
+	opacity:0;
+}
+.article{
+	flex-grow:2;
+	align-self:center;
+	flex-basis:300px;
+	background:rgba(244, 179, 66,0.6);
+	border-radius:20px;
+	padding-left:30px;
+	padding-right:30px;
+}
+.aside{
+	background-color:black;
+	flex-grow:2;
+	align-self: stretch;
+	flex-basis:300px;
+	opacity:0;
+}
+
+.tableBlock{
+	background:rgba(244, 179, 66,0.6);
+	position:absolute;
+	top:30px;
+	left:300px;
+	width:800px;
+	height:400px;
+	padding-left:30px;
+}
+
+.button{
+	position:relative;
+	top:420px;
+	left:500px;
+}
+
+.leftColumn{
+	width:50%;
+	float:left;
+}
+
+.rightColumn{
+	width:50%;
+	float:right;
+}

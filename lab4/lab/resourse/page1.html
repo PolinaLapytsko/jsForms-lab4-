@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="page2.html">
+    <script src="../scripts/page1Script.js"></script>
+    <link href="../style/flexStyle.css" rel="stylesheet">
+    <link href="../style/page1Style.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="flex-container1">
+    <div class="flex-element Header">Your opinion is important to us</div>
+</div>
+
+    <div class="flex-container2">
+        <div class="flex-element Article">
+            <form id="mainForm" action="javascript: goMail()" method="post" onsubmit="return validate();">
+                <p>Name: </p>
+                <input id="userName" type="text" name="userName" value="" />
+                <br/>
+
+                <div id="sex">
+                    <p><b>Sex:</b></p>
+                    <input  type="radio" name="sex"  value = "Male" checked> Male
+                    <input  type="radio" name="sex" value="Female"> Female
+                </div>
+
+                <p>Phone brand: </p>
+                    <select name="phones" size="3" multiple>
+                        <option value="Xiaomi">Xiaomi</option>
+                        <option value="Sumsung">Samsung</option>
+                        <option value="iPhone">Apple</option>
+                        <option value="Nokia">Nokia</option>
+                    </select>
+                <p id="comments"> Comments: </p>
+                <p><textarea id="userText" rows="5" cols="30" name="text"></textarea></p>
+                <br/>
+                <input type="submit" name="sendData" value="OK">
+                <input type="button" name="reset_form" value="RECET" onclick="this.form.reset();">
+            </form>
+        </div>
+        <div class="flex-element Nav"></div>
+        <div class="flex-element Aside"></div>
+    </div>
+<div class="flex-container3">
+    <div class="flex-element Footer">
+        <p>Contacts: admin@mysyte.com</p>
+        <p>Copyright © MySyte.com, 2017</p>
+    </div>
+</div>
+
+</body>
+</html>

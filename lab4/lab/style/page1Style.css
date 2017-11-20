@@ -1,0 +1,96 @@
+body{
+    font-size: 1.35em;
+    font-family:'Nunito', sans-serif;
+    color:#fff;
+    background: #e8e9e9;
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+.flex-container1, .flex-container2, .flex-container3{
+    padding: 1px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1.5px 0 0 rgba(0,0,0,1);
+}
+
+.flex-container2{
+    height: 500px;
+}
+
+.flex-element{
+    color:#fff;
+    padding: 15px;
+    margin: 5px;
+    background: #46739c;
+    border-radius: 3px;
+}
+
+.Article{
+    background: url("../images/img3.jpg") no-repeat;
+    background-size: 100%;
+
+}
+
+.Article h1{
+    font-style: oblique;
+    font-family: SansSerif;
+}
+
+.Header{
+    font-size: 30px;
+    text-align: center;
+}
+form{
+    position: fixed;
+    height:370px;
+    width: 970px;
+    margin-left: 105px;
+    line-height: 2px;
+    margin-top:32px;
+}
+
+#form p{
+    font-size: 20px;
+    color: #ffeced;
+}
+
+.Article h1 {
+    font-size: 28px;
+    color: #46739c;
+    text-align: center;
+}
+
+select{
+    height: 30px;
+    width: 100px;
+}
+
+.Footer{
+    font-size: 20px;
+    text-align: center;
+    line-height: 3px;
+}
+
+.Article #submit{
+    width:50px;
+    height: 30px;
+}
+
+select {
+    width:150px;
+    height: 65px;
+    font-size: 16px;
+}
+
+#userName, #userText{
+    font-size: 16px;
+}
+
+#comments{
+    margin-top:54px;
+}
+
+#okbutt{
+    margin-top:-10px;
+}

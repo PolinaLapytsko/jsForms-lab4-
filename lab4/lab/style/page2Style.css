@@ -1,0 +1,25 @@
+body{
+    font-size: 30px;
+    color:#fff;
+    background: #e8e9e9;
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+
+table, th{
+border:1px solid black;
+width:100%;
+}
+
+tr, td {
+    padding: 15px;
+    text-align: left;
+    color: #46739c;
+    font-size: 30px;
+}
+
+h1{
+color: #46739c;
+font-size: 50px;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Опрос</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="../css/indexStyles.css">
+		<script src="../js/script.js" type="text/javascript"></script>
+	</head>
+	<body>
+	<div class="flexContainer">
+		<div class="header"><h1>Опрос о телепередачах</h1></div>
+		<div class="nav"></div>
+		<div class="article">
+			<form id="mainForm" name="mainForm" action="javascript:transfer();" method="post" onsubmit="return validate();">
+				<label>Пол:</label>
+				<label>
+					<input type="radio" name="sex" value="Мужской" checked>
+					Мужской
+				</label>
+				<label>
+					<input type="radio" name="sex" value="Женский">
+					Женский
+				</label><br><hr>
+				<p>
+					<label for="name">Введите имя:</label>
+					<input id="name" type="text" name="name">
+				</p><hr>
+					<label>Выберите возраст: </label>
+					<select name="age">
+						<option value="до 10">0-10</option>
+						<option value="11-16">11-16</option>
+						<option value="17-25">17-25</option>
+						<option value="26-35">26-35</option>
+						<option value="36-65">36-65</option>
+						<option value="после 66">66+</option>
+					</select><hr>
+					<p>
+					<label>Введите название любимых передач:</label>
+					<input type="text" name="programs">
+				</p><hr>
+				<p>
+					<label>Выберите любимые жанры телепередач: </label><br>
+					<span class="leftColumn"><input type="checkbox" name="genre" value="Детские"> Детские<br>
+					<input type="checkbox" name="genre" value="Новостные"> Новостные<br>
+					<input type="checkbox" name="genre" value="Спортивные"> Спортивные<br>
+					<input type="checkbox" name="genre" value="Познавательные"> Познавательные <br></span>
+					<span class="rightColumn"><input type="checkbox"  name="genre" value="Религиозные"> Религиозные<br>
+					<input type="checkbox" name="genre" value="Научные"> Научные<br>
+					<input type="checkbox" name="genre" value="Развлекательные"> Развлекательные<br>
+					<input type="checkbox" name="genre" value="Музыкальные"> Музыкальные</span>
+				</p><hr>
+			
+				<p> 
+					<label>Оставьте комментарий:</label>
+					<textarea rows="10" cols="50" placeholder="Комментарий..." name="comment"></textarea>
+				</p>
+				<p>
+					<input type="submit" name="sendData" value="Отправить данные">
+					<button type="reset" value="Очистить форму" onclick="reset()">Очистить форму </button>
+				</p>
+			</form>
+			</div>
+			<div class="aside"></div>
+		</div>
+	<div class="footer"></div>
+	</body>
+</html>
